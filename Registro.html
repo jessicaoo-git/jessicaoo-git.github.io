@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/style_Registro.css">
+
+    <title>Fourmulario 2</title>
+
+</head>
+<body>
+
+    <aside class="discount-banner">20% de descuento en todos los productos!</aside>
+   
+     
+    <header>
+        
+        <img id= "logo" src="./img/tiendita.png" alt="tiendita">
+        <h1>Nombre Tienda</h1>   
+
+    </header>
+    
+    
+<main>
+
+    <div class = "login">
+        <h2>Registro</h2>
+        <form action="./home.html" method="GET">
+           
+             <input type="text" id="usuario" name="NombreUsuario" placeholder="Nombre y Apellido">
+             
+            <input type="email" id="email" name="emailUsuario" placeholder="Correo Electrónico" required>
+
+            <input type="password" id="contraseña" name="PasswordUsuario" placeholder="Contraseña" required>
+            
+            <select name="select" id="">
+                <option value="" disabled selected hidden>País</option>
+                <option value="value1">Argentina</option>
+                <option value="value2">Colombia</option>
+                <option value="value3">Brasil</option>
+            </select>
+           
+         <div class="button">
+            <input  type="reset" name="button" value ="Resetear">
+            <input type="submit" name="button" value ="Registrar">
+        </div>
+
+            <p> <a href="./Login.html">¿Ya tenés una cuenta?</a> Ingresa</p>
+
+        </form>
+      
+
+            
+    </div>
+   
+
+    </main>
+
+    <footer>
+        
+            <p class="footer-description">Todos los derechos reservados a FRONT END 1</p>
+          
+       
+    </footer>
+    
+</body>
+</html>
