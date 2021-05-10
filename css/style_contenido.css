@@ -1,0 +1,134 @@
+/* HOJA DE ESTILOS PARA FORMULARIO 1*/ 
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla&family=Roboto&display=swap');
+*{
+    margin:0;
+     
+}
+body{
+    font-family:'Roboto', sans-serif;
+}
+
+header{
+    
+    font-size: 10px;
+    color: white;
+    background-color:#00669F;
+    padding: 5px;
+
+}
+h1{
+    background: #00669F;
+    font-family: 'Roboto', sans-serif;
+    display: inline-block;
+    vertical-align: middle;
+    margin:0;
+
+}
+#logo{
+    height: 40px;
+    vertical-align: middle;
+}
+
+h2{
+    font-family: 'Inter', sans-serif;
+    text-align: left;
+    font-size: 48px;
+    margin-bottom: 20px;
+    color: #333333;
+    gap: 2px;
+    
+}
+.contenido{
+ 
+    margin: 50px auto;   /*Mirar si está correcto el margin*/
+    width: 300px;
+    text-align:left;
+}
+form{
+    font-family: "karla", sans-serif;
+}
+
+#usuario{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    /*display:block; para colocarlo en bloque */
+
+}
+#email{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    /*display:block; para colocarlo en bloque */
+
+}
+#contraseña{
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+    /*display:block; para colocarlo en bloque */
+
+}
+select{                 /*Q podria haber usado mejor para juntar el select y el imput?*/
+    margin-top: 10px;
+    width: 300px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+
+input[type=submit]{
+    background-color: #1CD1B0;
+    margin-top: 40px;
+    border-radius: 20px;
+    width: 148px;
+    height:30px;
+    border: none;
+    display: inline-block;
+ 
+}
+input[type=reset]{
+    background-color:#888888;
+    margin-top: 40px;
+    border-radius: 20px;
+    border: none;
+    width: 148px;
+    height:30px;
+    color: white;
+    display: inline-block;
+    
+
+}
+input:focus::placeholder{     /*Para cuando coloque el cursor desapre*/
+    color:transparent;
+}
+
+
+form p {
+    font-size:13px;
+    padding-top:10px;
+}
+
+aside{
+    background-color: #012840;
+    font-size: 1em;
+    padding: 3px 15px;
+    font-weight: 500;
+    color: white;
+    text-align: right;
+}
+
+footer{
+    background-color: #00669F;
+    text-align: center;
+    position: absolute;
+    color: white;
+    padding: 15px ;
+    bottom: 0px;
+    width: 100%;
+    
+}

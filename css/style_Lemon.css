@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+@font-face{
+    font-family:'Playfair Display';
+    src:local("PlayfairDisplay-BoldItalic"),
+        url(../fonts/PlayfairDisplay-BoldItalic.ttf);
+    font-weight: bold;
+    font-style: italic;
+
+}
+
+body{
+    color:black;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+}
+.banner{
+    background-image: url(../img/lemon-pie2\ \(1\).jpg);
+    background-size: cover;
+    background-position: center;
+    height:343px;
+    color: white;
+}
+h2{
+    font-family:'Playfair Display';
+
+}
+.fas{
+    color: brown
+}
